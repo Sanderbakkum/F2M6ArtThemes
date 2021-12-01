@@ -1,0 +1,10 @@
+body{
+    background-color: #c04141;
+    color: #ffffff;
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
