@@ -3,7 +3,7 @@
 
     $args = [
         'header-menu' => __( 'Header Menu' ),
-        'link_after' => __( '*' )
+        
     ];
     wp_nav_menu($args);
 ?>
@@ -27,4 +27,6 @@ else :
 endif;
 
 ?>
-
+<?php 
+get_footer();
+?>
